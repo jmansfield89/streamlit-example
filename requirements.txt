@@ -4,4 +4,3 @@ streamlit
 requests
 bs4
 datetime 
-urllib.request
