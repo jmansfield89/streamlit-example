@@ -25,6 +25,11 @@
 #     .mark_circle(color='#0068c9', opacity=0.5)
 #     .encode(x='x:Q', y='y:Q'))
 
+# INPUTS
+username = st.text_input("Enter your username: ")
+password = st.text_input("Enter your password: ")
+
+
 # LIBRARY IMPORTS
 import requests
 from bs4 import BeautifulSoup
