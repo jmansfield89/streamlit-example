@@ -1,7 +1,7 @@
 altair
 pandas
 streamlit
-equests
+requests
 bs4
 json
 datetime 
