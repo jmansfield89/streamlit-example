@@ -41,7 +41,7 @@ import streamlit as st
 username = st.text_input("Enter your username: ")
 password = st.text_input("Enter your password: ")
 
-st.wait() #waits to execute any more code until user has input username and password.
+st.wait_for_user() #waits to execute any more code until user has input username and password.
 
 # FUNCTIONS
 # Create a session with AO3 to login with the username and password credentials provided
