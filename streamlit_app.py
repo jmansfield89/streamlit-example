@@ -25,9 +25,6 @@
 #     .mark_circle(color='#0068c9', opacity=0.5)
 #     .encode(x='x:Q', y='y:Q'))
 
-# INPUTS
-username = st.text_input("Enter your username: ")
-password = st.text_input("Enter your password: ")
 
 
 # LIBRARY IMPORTS
@@ -39,6 +36,10 @@ import pandas as pd
 import json
 import urllib.request
 import streamlit as st
+
+# INPUTS
+username = st.text_input("Enter your username: ")
+password = st.text_input("Enter your password: ")
 
 # FUNCTIONS
 # Create a session with AO3 to login with the username and password credentials provided
