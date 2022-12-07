@@ -3,6 +3,5 @@ pandas
 streamlit
 requests
 bs4
-json
 datetime 
 urllib.request
